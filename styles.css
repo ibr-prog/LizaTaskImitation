@@ -1,0 +1,145 @@
+* {
+    font-family: "Neucha", sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0px 0px 0px 30px;
+}
+
+
+.header {
+    background: #f8f8f8;
+    padding: 30px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content-nav a {
+    color: #2C7D7A;
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+
+.slogan {
+    background: #2C7D7A;
+    padding: 30px 0px 0px 30px;
+}
+
+.slogan-content {
+    display: flex;
+
+}
+
+.slogan-content-text {
+    color: white;
+}
+
+.slogan-content-text h1 {
+    font-size: 96px;
+    margin: 0;
+}
+
+.slogan-content-text p {
+    font-size: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+    margin: 0;
+}
+
+.slogan-content-image{
+    display: flex;
+    flex-grow: 1;
+    padding: 100px 0px 0px 0px;
+}
+
+.slogan-content-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+
+.product {
+    background: #D29076;
+    padding: 0px 40px;
+}
+
+.product-content {
+    display: flex;
+}
+
+.product-content-text {
+    padding: 70px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.product-content-text h2 {
+    margin: 0;
+    color: #8E3C27;
+    font-size: 60px;
+    font-weight: normal;
+}
+
+.product-content-text p {
+    margin: 0;
+    font-size: 25px;
+    color: black;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.btn {
+    background: #81392B;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 25px;
+}
+
+.product-content-image {
+    align-content: end;
+    min-width: 400px;
+}
+
+.product-content-image img {
+    width: 100%;
+    height: auto;
+}
+
+
+.new-products {
+    background: #EAF6F9;
+    padding: 80px;
+}
+
+.new-products-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.new-products-text p {
+    color: #00625E;
+    font-size: 28px;
+    white-space: pre-line;
+}
+
+.new-products-items {
+    display: flex;
+}
+
+.new-products-items img {
+    width: 230px;
+    height: auto;
+}
